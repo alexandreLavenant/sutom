@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const word = atob(params.get('word')) || atob('Y2FtYXJhZGU=');
+const word = atob(params.get('word') || 'Y2Fjb3Bob25pZQ==');
 
 const lettersCount = {};
 let lettersFound = {};
